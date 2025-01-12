@@ -4,6 +4,7 @@ import Doctors from "../Components/Doctors";
 import Blogs from "../Components/Blogs";
 import Footer from "../Components/Footer";
 import Services from "../Components/Services";
+import About from "../Components/About"
 import ChatFloatingButton from "../Components/ChatWithUs";
 
 const HomePage = () => {
@@ -24,6 +25,7 @@ const HomePage = () => {
             {/* Call to Action Button */}
             <Blogs />
             <Doctors />
+            <About />
             <Footer />
 
             {/* Floating Chat Button */}
